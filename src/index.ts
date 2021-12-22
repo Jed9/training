@@ -2,6 +2,13 @@ import { Server } from "./server";
 import { IUser } from "./interfaces/user";
 import { Website } from "./website";
 
+
+import { Euler001 } from './euler/euler001'
+const euler = new Euler001();
+euler.run();
+
+
+
 export var myportfolio = new Website();
 
 var server = new Server();
